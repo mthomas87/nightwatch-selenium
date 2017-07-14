@@ -1,7 +1,7 @@
 module.exports = {
     'default': { // 'default' environnement parameters
         searchTerm : 'nightwatch',
-        movieName : 'Nightwatch – Nachtwache'
+        searchResult : 'Nightwatch – Nachtwache'
     },
 
     // Abord all on test fail

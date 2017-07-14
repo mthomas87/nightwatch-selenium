@@ -4,7 +4,7 @@
   "description": "Nightwatch demonstration project",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch nw/tests/first.test.js -c nightwatch.json"
+    "test": "nightwatch -c nightwatch.json"
   },
   "devDependencies": {
     "chromedriver": "2.29.0",
