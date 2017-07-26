@@ -1,9 +1,4 @@
-module.exports = {
-    elements: {
-        searchInput: 'input[type=text]',
-        searchBtn: 'button[name=btnG]',
-    },
-    commands: [{
+const testCommands = {
         fillInSearchInput () {
             this
                 .waitForElementVisible('body')
@@ -17,5 +12,13 @@ module.exports = {
                 .api.pause(1000);
             return this.api;
         }
-    }]
+    }
+
+
+export default {
+    commands:[testCommands],
+    elements: {
+        searchInput: 'input[type=text]',
+        searchBtn: 'input[type=button]',
+    }
 };

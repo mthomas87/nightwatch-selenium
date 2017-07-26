@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     'default': { // 'default' environnement parameters
         searchTerm : 'nightwatch',
         searchResult : 'Nightwatch – Nachtwache'

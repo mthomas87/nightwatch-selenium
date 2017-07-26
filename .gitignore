@@ -11,3 +11,4 @@ nw/reports
 .DS_Store
 *.iml
 .idea
+*.test
